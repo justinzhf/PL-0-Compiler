@@ -1,0 +1,10 @@
+program p;
+	var b;
+begin 
+	read(b);
+	if b>1 then 
+	write(2)
+	else
+	write(0)
+	
+end

@@ -1,0 +1,22 @@
+program p;
+	const c1:=1;
+	var b;
+	procedure p1();
+	const c2:=2;
+	var c;
+		procedure p2();
+		const c3:=3;
+		var d;
+		begin
+			read(d);
+			c:=c3+d
+		end
+	begin 
+		call p2();
+		b:=c+c2
+	end
+begin
+	call p1();
+	write(b)
+end
+		

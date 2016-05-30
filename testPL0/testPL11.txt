@@ -1,0 +1,11 @@
+program p;
+	var c;
+	procedure p1(b1,b2,b3);
+	begin
+		c:=b1+b2+b3
+	end	
+begin 
+	call p1(1,2,4);
+	write(c)
+		
+end

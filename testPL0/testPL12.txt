@@ -1,0 +1,14 @@
+program p;
+	var b;
+	procedure p1();
+	var b;
+	begin
+		read(b);
+		write(b)
+	end	
+begin 
+	read(b);
+	call p1();
+	write(b)
+		
+end

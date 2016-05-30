@@ -1,0 +1,13 @@
+program p;
+	const c1:=1;
+	var b;
+	procedure p1();
+	const c2:=2;
+	begin
+		b:=(c1+c2)*(-3)/2
+	end
+	
+begin 
+	call p1();
+	write(b)
+end

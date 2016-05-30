@@ -1,0 +1,16 @@
+program test1;
+	const c1:=1,c2:=2;
+	var v1,v2,v3;
+	procedure p1();
+	begin
+		read(v1)
+	end
+	
+begin 
+	call p1();
+	while v1<>0 do
+	begin
+		write(2*v1+c1);
+		call p1()
+	end
+end
